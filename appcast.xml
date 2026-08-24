@@ -9,12 +9,14 @@
             <sparkle:version>2.3.0</sparkle:version>
             <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.0/Pack-2.3.0.zip" length="1613414" type="application/octet-stream" sparkle:edSignature="cQUpLkpFyns2IFzOQjStnbSHYpfFPpUyaAwNBXNQEQUZRAXzc30TREwS5JgBhN7B54oabteGc1QEgg/DGkLOCA=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.0/Pack-2.3.0.zip" length="1613270" type="application/octet-stream" sparkle:edSignature="IbdGDFQ6iTgchrvm7zZZFybbA+IWSe9YLY3yCOXzDyLcc4jJBSQqQFBfG+N5gVNq05+cmdmpg60lxG3ksSPbAA=="/>
             <description><![CDATA[<h3>Tự cập nhật, và icon riêng</h3>
 <ul>
 <li>Từ bản này Pack tự tải và cài bản mới bằng Sparkle. Trước đây mục <em>Kiểm tra bản mới</em> chỉ so phiên bản rồi mở trang tải, vẫn phải kéo đè bằng tay</li>
 <li>Bản cập nhật phải ký đúng khoá EdDSA mới được nhận, nên không tải nhầm thứ khác về</li>
 <li>Icon app: khung trắng cùng bộ với Ping, bên trong là ký hiệu nén đang dùng trên menu bar</li>
+<li>Gói nhiều ảnh giờ đặt tên theo ngày giờ — <code>pack-2026-08-24-1736.zip</code> thay cho dãy số mili giây khó đọc</li>
+<li>Bỏ chú thích hiện lên khi rê chuột vào icon trên thanh menu</li>
 <li>Bỏ đường kẻ hiện ra dưới dòng nhắc nén lại khi đổi chất lượng hoặc kích thước</li>
 </ul>
 ]]></description>
