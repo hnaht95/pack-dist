@@ -3,20 +3,20 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.3.2</title>
-            <pubDate>Mon, 24 Aug 2026 17:53:44 +0700</pubDate>
+            <title>2.3.3</title>
+            <pubDate>Mon, 24 Aug 2026 17:59:24 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.3.2</sparkle:version>
-            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+            <sparkle:version>2.3.3</sparkle:version>
+            <sparkle:shortVersionString>2.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Nút tải chờ nén xong mới bật</h3>
-<ul>
-<li>Trước đây nút bật ngay khi ảnh đầu tiên nén xong, trong khi các ảnh còn lại
-vẫn đang chạy. Bấm lúc đó thì gói zip chỉ có phần đã xong, không có cảnh báo gì</li>
-<li>Giờ nút chỉ sáng khi mọi ảnh đã nén xong</li>
-</ul>
+            <description><![CDATA[<h3>Nút tải nói rõ đang chờ gì</h3>
+<p>Khi nén nhiều ảnh, nút dưới cùng ghi <strong>Đang nén ảnh…</strong> cho tới
+khi mọi ảnh xong mới đổi thành <strong>Tải .zip</strong>. Trước đây nó vẫn ghi
+"Tải .zip" suốt lúc đang chạy, chỉ khác ở chỗ mờ đi.</p>
+<p>Một ảnh thì giữ nguyên chữ "Tải xuống" — nén xong rất nhanh, đổi chữ qua lại
+chỉ thành nháy.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.2/Pack-2.3.2.zip" length="1613458" type="application/octet-stream" sparkle:edSignature="TNjZZ/WA1hURrnZF4mx3jLDkodMjPhfsadQ3EfvzmqH4tLorLc73vJYee3Y/9lrPsgFpcaeLIQLClzogtpbDBQ=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.3/Pack-2.3.3.zip" length="1613570" type="application/octet-stream" sparkle:edSignature="AHK+oDW84c5Fq/DVmaMb2vIlGqxVYfOwfPWd3TG+aFJMpgB2Lvc857rTf5UzvwodokuXPkJsVBJ3V4/uboSfCQ=="/>
         </item>
     </channel>
 </rss>
