@@ -3,19 +3,24 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.3.7</title>
-            <pubDate>Mon, 24 Aug 2026 18:37:00 +0700</pubDate>
+            <title>2.4.0</title>
+            <pubDate>Mon, 24 Aug 2026 18:46:02 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.3.7</sparkle:version>
-            <sparkle:shortVersionString>2.3.7</sparkle:shortVersionString>
+            <sparkle:version>2.4.0</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Danh sách đúng thứ tự</h3>
-<p>Ảnh giờ xếp theo đúng thứ tự bạn đưa vào và nén dần từ trên xuống. Trước đây
-danh sách dựng ngược nên hai ảnh cuối lại nằm trên cùng — thứ tự nén vẫn đúng,
-nhưng nhìn thì như đang chạy từ dưới lên.</p>
-<p>Thả thêm ảnh vào danh sách đang có thì ảnh mới nối xuống cuối.</p>
+            <description><![CDATA[<h3>Tải thẳng ra thư mục, không đóng zip nữa</h3>
+<ul>
+<li>Từ hai ảnh trở lên, Pack ghi cả đợt vào một thư mục trong Downloads đặt tên
+theo ngày giờ — <code>pack-2026-08-24-1842</code> — rồi mở Finder ngay tại đó.
+Không phải giải nén thêm bước nào</li>
+<li>Trùng tên thư mục thì tự thêm <code>(1)</code>, không đè lên thư mục cũ</li>
+<li>Bỏ luôn thư viện nén tải từ CDN: trước đây không có mạng là không tải nổi
+nhiều ảnh, dù việc nén hoàn toàn diễn ra trên máy</li>
+<li>Một ảnh vẫn tải thẳng file ảnh như cũ</li>
+</ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.7/Pack-2.3.7.zip" length="1614928" type="application/octet-stream" sparkle:edSignature="w/n0AxKbRKKMxyEQvxPfADbMLE1g94XK5ad2h9AZLKzvR++fIDtyiqKVoGHXNPCYb5dQOlAF81jtLBBLEVIrBQ=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.4.0/Pack-2.4.0.zip" length="1627966" type="application/octet-stream" sparkle:edSignature="4L45hehfK8k60g8xAsR7IkSK0eUaSSPcG2q2FN4gKqKOQbamY+XcCxJa8OMz2tRPqrMxesjvZ1vxVXnibQZPDw=="/>
         </item>
     </channel>
 </rss>
