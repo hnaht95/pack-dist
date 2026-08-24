@@ -21,3 +21,10 @@ ditto -c -k --keepParent dist/Pack.app <feed>/Pack-<ver>.zip
 ```
 
 Rồi đẩy `appcast.xml` lên repo này và đính file `.zip` vào Releases cùng tag.
+
+Mỗi lần chạy chỉ để **một** file `.zip` trong thư mục feed. Để nhiều bản cùng
+lúc thì `generate_appcast` viết URL của mọi mục theo cùng một
+`--download-url-prefix`, nên mục của bản cũ sẽ trỏ nhầm sang thư mục release của
+bản mới; nó cũng sinh thêm file delta mà nếu không đính kèm thì Sparkle tải
+không ra. Một mục cho mỗi lần phát hành là đủ — không ai cần cập nhật ngược về
+bản cũ.
