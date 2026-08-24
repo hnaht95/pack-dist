@@ -3,19 +3,20 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.3.1</title>
-            <pubDate>Mon, 24 Aug 2026 17:46:18 +0700</pubDate>
+            <title>2.3.2</title>
+            <pubDate>Mon, 24 Aug 2026 17:53:44 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.3.1</sparkle:version>
-            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+            <sparkle:version>2.3.2</sparkle:version>
+            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Bản kiểm tra luồng tự cập nhật</h3>
-<p>Không đổi tính năng nào. 2.3.0 là bản đầu tiên có Sparkle nên lúc đó chưa có
-gì cũ hơn để cập nhật lên; bản này ra để chạy thử đúng đường đi đó.</p>
-<p>Nếu bạn đang đọc dòng này trong hộp thoại cập nhật của Pack thì mọi khâu đã
-chạy đúng: đọc appcast, đối chiếu chữ ký EdDSA, rồi tải bản mới về.</p>
+            <description><![CDATA[<h3>Nút tải chờ nén xong mới bật</h3>
+<ul>
+<li>Trước đây nút bật ngay khi ảnh đầu tiên nén xong, trong khi các ảnh còn lại
+vẫn đang chạy. Bấm lúc đó thì gói zip chỉ có phần đã xong, không có cảnh báo gì</li>
+<li>Giờ nút chỉ sáng khi mọi ảnh đã nén xong</li>
+</ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.1/Pack-2.3.1.zip" length="1613282" type="application/octet-stream" sparkle:edSignature="kmqEg95bqpl+t7JDnnTjnaFx2dnSMfK1KwtOgpC7IvGkr4piOQxJkYviKhcNBmffKP8NN+P54ZBQeR3E6b4PBw=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.2/Pack-2.3.2.zip" length="1613458" type="application/octet-stream" sparkle:edSignature="TNjZZ/WA1hURrnZF4mx3jLDkodMjPhfsadQ3EfvzmqH4tLorLc73vJYee3Y/9lrPsgFpcaeLIQLClzogtpbDBQ=="/>
         </item>
     </channel>
 </rss>
