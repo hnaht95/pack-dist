@@ -3,18 +3,19 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.3.6</title>
-            <pubDate>Mon, 24 Aug 2026 18:24:16 +0700</pubDate>
+            <title>2.3.7</title>
+            <pubDate>Mon, 24 Aug 2026 18:37:00 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.3.6</sparkle:version>
-            <sparkle:shortVersionString>2.3.6</sparkle:shortVersionString>
+            <sparkle:version>2.3.7</sparkle:version>
+            <sparkle:shortVersionString>2.3.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Ghi rõ giới hạn 20 ảnh</h3>
-<p>Dưới dòng "Kéo ảnh vào đây" giờ có thêm ghi chú <em>Tối đa 20 ảnh mỗi lượt</em>.
-Giới hạn này vốn đã có từ trước nhưng không hiện ở đâu cả — kéo vào 30 ảnh thì
-app lặng lẽ giữ 20 và bỏ 10 ảnh còn lại.</p>
+            <description><![CDATA[<h3>Danh sách đúng thứ tự</h3>
+<p>Ảnh giờ xếp theo đúng thứ tự bạn đưa vào và nén dần từ trên xuống. Trước đây
+danh sách dựng ngược nên hai ảnh cuối lại nằm trên cùng — thứ tự nén vẫn đúng,
+nhưng nhìn thì như đang chạy từ dưới lên.</p>
+<p>Thả thêm ảnh vào danh sách đang có thì ảnh mới nối xuống cuối.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.6/Pack-2.3.6.zip" length="1614849" type="application/octet-stream" sparkle:edSignature="YGpXb39pfLnuoI0z6FRekAPDMFA58PjAMQeAituro71GViZCY9xZdzSmNQXdd9zuwOZF/7koxqN1o22ifkOqDg=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.7/Pack-2.3.7.zip" length="1614928" type="application/octet-stream" sparkle:edSignature="w/n0AxKbRKKMxyEQvxPfADbMLE1g94XK5ad2h9AZLKzvR++fIDtyiqKVoGHXNPCYb5dQOlAF81jtLBBLEVIrBQ=="/>
         </item>
     </channel>
 </rss>
