@@ -3,18 +3,19 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.3.4</title>
-            <pubDate>Mon, 24 Aug 2026 18:08:41 +0700</pubDate>
+            <title>2.3.5</title>
+            <pubDate>Mon, 24 Aug 2026 18:15:26 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.3.4</sparkle:version>
-            <sparkle:shortVersionString>2.3.4</sparkle:shortVersionString>
+            <sparkle:version>2.3.5</sparkle:version>
+            <sparkle:shortVersionString>2.3.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Nút tải kiêm thanh tiến trình</h3>
-<p>Khi nén nhiều ảnh, nút dưới cùng tô đậm dần từ trái sang phải theo số ảnh đã
-xong, kèm chữ <strong>Đang nén ảnh…</strong>. Nén xong hết thì nút trở lại
-<strong>Tải .zip</strong>.</p>
+            <description><![CDATA[<h3>Thanh tiến trình chạy theo thời gian thực</h3>
+<p>Trước đây thanh chỉ nhảy mỗi khi một ảnh nén xong — ba ảnh thì chỉ có 0, 33
+rồi 67 phần trăm. Giờ nó chạy liên tục: phần ảnh đang nén dở được ước lượng theo
+thời gian đã trôi so với tốc độ trung bình đo được từ những ảnh trước đó.</p>
+<p>Thanh chỉ tiến, không bao giờ lùi.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.4/Pack-2.3.4.zip" length="1614002" type="application/octet-stream" sparkle:edSignature="lzFP8t9wPx0tMxAEIowYcENRAWzGxp3Gh2A9ZQPXau7nll2W5O7IfaZOwjDE07voZZkZQu9zXdJ9NnN0wL3QDw=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.5/Pack-2.3.5.zip" length="1614810" type="application/octet-stream" sparkle:edSignature="AHHWnxIWbSvNTnpbvTh54rbFLvu8lTzYQcyzZxl6vivdLXlG/++Joe4Ztg9H2m2M92c0AXLl+FmWh7IXHr5EDg=="/>
         </item>
     </channel>
 </rss>
