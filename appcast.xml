@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Pack</title>
+        <item>
+            <title>2.3.0</title>
+            <pubDate>Mon, 24 Aug 2026 17:36:12 +0700</pubDate>
+            <link>https://github.com/hnaht95/pack-dist</link>
+            <sparkle:version>2.3.0</sparkle:version>
+            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.3.0/Pack-2.3.0.zip" length="1613414" type="application/octet-stream" sparkle:edSignature="cQUpLkpFyns2IFzOQjStnbSHYpfFPpUyaAwNBXNQEQUZRAXzc30TREwS5JgBhN7B54oabteGc1QEgg/DGkLOCA=="/>
+            <description><![CDATA[<h3>Tự cập nhật, và icon riêng</h3>
+<ul>
+<li>Từ bản này Pack tự tải và cài bản mới bằng Sparkle. Trước đây mục <em>Kiểm tra bản mới</em> chỉ so phiên bản rồi mở trang tải, vẫn phải kéo đè bằng tay</li>
+<li>Bản cập nhật phải ký đúng khoá EdDSA mới được nhận, nên không tải nhầm thứ khác về</li>
+<li>Icon app: khung trắng cùng bộ với Ping, bên trong là ký hiệu nén đang dùng trên menu bar</li>
+<li>Bỏ đường kẻ hiện ra dưới dòng nhắc nén lại khi đổi chất lượng hoặc kích thước</li>
+</ul>
+]]></description>
+        </item>
+    </channel>
+</rss>
