@@ -3,20 +3,22 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.5.0</title>
-            <pubDate>Mon, 24 Aug 2026 21:47:31 +0700</pubDate>
+            <title>2.6.0</title>
+            <pubDate>Mon, 24 Aug 2026 22:01:17 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.5.0</sparkle:version>
-            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:version>2.6.0</sparkle:version>
+            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Rê ảnh lên icon là panel tự bật ra</h3>
-<p>Không cần bấm mở panel trước nữa. Kéo ảnh từ Finder rê lên icon Pack trên
-thanh menu, panel bật ra ngay khi ảnh vừa tới, rồi thả vào đó là nén luôn.
-Thả thẳng xuống icon cũng được.</p>
-<p>Thả cả thư mục cũng nhận, Pack lấy ảnh bên trong. Bấm trái mở panel và bấm
-phải ra menu vẫn như cũ.</p>
+            <description><![CDATA[<h3>Chuột phải ảnh trong Finder, chọn Mở bằng Pack</h3>
+<p>Không cần kéo lên thanh menu nữa. Chọn ảnh trong Finder, chuột phải,
+<em>Mở bằng > Pack</em> — panel bật ra và nén luôn. Kéo ảnh thả thẳng lên
+Pack.app cũng được, chọn cả thư mục cũng được.</p>
+<p>Hữu ích khi kéo lên mép trên màn hình bị hệ thống chặn bằng thanh chuyển
+desktop, như trên macOS 27.</p>
+<p>Pack chỉ nằm trong danh sách "Mở bằng", không bao giờ tự nhận làm app mặc
+định cho ảnh — bấm đúp vào ảnh vẫn mở bằng app cũ của bạn.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.5.0/Pack-2.5.0.zip" length="1644143" type="application/octet-stream" sparkle:edSignature="kkNmZTyaqx5O3J2zsu+85f8G2Is7Sv1V5pfzXesot/GOdUtA6QGtX+fqHsZQT1GcYBHCYsOZ5rS46m0MiBS1CA=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.6.0/Pack-2.6.0.zip" length="1645227" type="application/octet-stream" sparkle:edSignature="hOPHYdangD8phJrc4uEH0ePbd94GJ/MBQ4wrmifazTOPTmrFReDcuqgNx18x3FjUkWUrxyWvGYMoUIJFIRG1Bg=="/>
         </item>
     </channel>
 </rss>
