@@ -3,24 +3,18 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.7.0</title>
-            <pubDate>Tue, 25 Aug 2026 08:50:56 +0700</pubDate>
+            <title>2.8.0</title>
+            <pubDate>Tue, 25 Aug 2026 08:59:51 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.7.0</sparkle:version>
-            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+            <sparkle:version>2.8.0</sparkle:version>
+            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Phím tắt toàn cục và mục trong menu Services</h3>
-<ul>
-<li><strong>Phím tắt:</strong> mặc định ⌥⌘P bật panel ở bất cứ đâu. Chọn tổ hợp
-khác hoặc tắt hẳn trong menu chuột phải, mục <em>Phím tắt</em></li>
-<li><strong>Services:</strong> chọn ảnh trong Finder, chuột phải là thấy ngay
-<em>Compress with Pack</em>, không phải vào submenu "Mở bằng"</li>
-</ul>
-<p>Cả hai đều không cần kéo lên mép trên màn hình, nên dùng được cả khi hệ thống
-chiếm mất cử chỉ đó như trên macOS 27.</p>
-<p>Phím tắt dùng RegisterEventHotKey nên không đòi quyền Input Monitoring.</p>
+            <description><![CDATA[<h3>Tự đặt phím tắt</h3>
+<p>Chuột phải icon > <em>Phím tắt</em> > <em>Đặt phím tắt…</em>, rồi bấm tổ hợp
+bạn muốn. Cần ít nhất một phím ⌘ ⌥ ⌃ ⇧, Esc để huỷ. Mặc định vẫn là ⌥⌘P.</p>
+<p>Bản trước chỉ cho chọn trong danh sách có sẵn.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.7.0/Pack-2.7.0.zip" length="1656492" type="application/octet-stream" sparkle:edSignature="SN7nmJODgjhnl1th/2UvLpipZ+gLleVIl8zHyQBFzcPM4nXqjQauIj3UNxlnUij+6cQo1sjctO787y7RFl+kCw=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.8.0/Pack-2.8.0.zip" length="1662658" type="application/octet-stream" sparkle:edSignature="9OUsYwWwqK3vZ8fF/L/5KpKwY+j+aa52Gx3ET5kfSyw1LcFFIItCtfCjYQgbaaSgCjMeHJ3+Nmy6Tn/5PDNHAQ=="/>
         </item>
     </channel>
 </rss>
