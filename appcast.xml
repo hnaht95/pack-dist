@@ -3,18 +3,22 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.8.0</title>
-            <pubDate>Tue, 25 Aug 2026 08:59:51 +0700</pubDate>
+            <title>2.9.0</title>
+            <pubDate>Tue, 25 Aug 2026 09:13:05 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.8.0</sparkle:version>
-            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
+            <sparkle:version>2.9.0</sparkle:version>
+            <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Tự đặt phím tắt</h3>
-<p>Chuột phải icon > <em>Phím tắt</em> > <em>Đặt phím tắt…</em>, rồi bấm tổ hợp
-bạn muốn. Cần ít nhất một phím ⌘ ⌥ ⌃ ⇧, Esc để huỷ. Mặc định vẫn là ⌥⌘P.</p>
-<p>Bản trước chỉ cho chọn trong danh sách có sẵn.</p>
+            <description><![CDATA[<h3>Bảng đặt phím tắt có ô hiển thị và nút Lưu</h3>
+<ul>
+<li>Bấm tổ hợp xong không tắt bảng ngay nữa: tổ hợp hiện trong ô, xem lại rồi
+bấm <em>Lưu</em>. Mở bảng lên thì ô hiện sẵn tổ hợp đang dùng</li>
+<li>Bảng dùng đúng bảng màu và hình dạng của panel chính, cả sáng lẫn tối</li>
+</ul>
+<p>Cũng bổ sung khai báo còn thiếu cho mục <em>Compress with Pack</em> trong menu
+Services của Finder.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.8.0/Pack-2.8.0.zip" length="1662658" type="application/octet-stream" sparkle:edSignature="9OUsYwWwqK3vZ8fF/L/5KpKwY+j+aa52Gx3ET5kfSyw1LcFFIItCtfCjYQgbaaSgCjMeHJ3+Nmy6Tn/5PDNHAQ=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.9.0/Pack-2.9.0.zip" length="1683294" type="application/octet-stream" sparkle:edSignature="bTP/QbIA0iqYPy46biBwG1lWQWg1RaLasBH2RQAejlB6zvYLNiid7o+P5l/Z80/6kbC55bMvb45OrWVbMdmYBw=="/>
         </item>
     </channel>
 </rss>
