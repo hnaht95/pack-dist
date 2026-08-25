@@ -3,19 +3,24 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.9.2</title>
-            <pubDate>Tue, 25 Aug 2026 09:28:36 +0700</pubDate>
+            <title>2.9.3</title>
+            <pubDate>Tue, 25 Aug 2026 09:49:02 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.9.2</sparkle:version>
-            <sparkle:shortVersionString>2.9.2</sparkle:shortVersionString>
+            <sparkle:version>2.9.3</sparkle:version>
+            <sparkle:shortVersionString>2.9.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Bảng đặt phím tắt: hiện đủ hai nút</h3>
-<p>Nút Huỷ và Lưu trước đây không vẽ ra màn hình. Nền của chúng đặt bằng
-<code>layer.backgroundColor</code>, mà NSButton trên macOS hiện tại tự quản layer
-của nó và ghi đè lại — đọc giá trị ra vẫn đúng nhưng lên màn hình thì trắng
-trơn. Giờ nút tự vẽ, có cả trạng thái rê chuột và nhấn.</p>
+            <description><![CDATA[<h3>Dọn menu, và chặn nguồn tải nhầm bản cũ</h3>
+<ul>
+<li>Bỏ mục <em>Xem trên GitHub</em>; <em>Kiểm tra bản mới</em> bỏ ba chấm vì nó
+chạy ngay chứ không hỏi thêm gì</li>
+<li>File cài giờ mang số phiên bản — <code>Pack-2.9.3.dmg</code>. Trước đây mọi
+bản đều tên <code>Pack.dmg</code> nên Downloads đầy Pack.dmg, Pack-1.dmg… và mở
+nhầm bản cũ chưa ký là chuyện sớm muộn</li>
+<li>Đã gỡ file cài khỏi sáu bản đầu (v1.0.0 đến v2.2.1) — chúng ký ad-hoc, chưa
+notarize, tải về là macOS chặn với cảnh báo phần mềm độc hại</li>
+</ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.9.2/Pack-2.9.2.zip" length="1684130" type="application/octet-stream" sparkle:edSignature="mMOdtIdR9ck/MVfgjWxv2h8ZtCivLhDD2iJPphXmtj4rLNfLZKgmKObOcCOYhXTnBtuFFHpYoD9OYPobH/cBCw=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.9.3/Pack-2.9.3.zip" length="1682698" type="application/octet-stream" sparkle:edSignature="ymcLX93UIMnETfjTKQS3LCMh0ZAxplmD4ZvJMsK248QdWr7Is6uTlUQeTKDN31mmAy0OX4stff0BVRfcpoNoBA=="/>
         </item>
     </channel>
 </rss>
