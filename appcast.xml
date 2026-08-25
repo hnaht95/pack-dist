@@ -3,22 +3,21 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.9.0</title>
-            <pubDate>Tue, 25 Aug 2026 09:13:05 +0700</pubDate>
+            <title>2.9.1</title>
+            <pubDate>Tue, 25 Aug 2026 09:18:57 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.9.0</sparkle:version>
-            <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
+            <sparkle:version>2.9.1</sparkle:version>
+            <sparkle:shortVersionString>2.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Bảng đặt phím tắt có ô hiển thị và nút Lưu</h3>
+            <description><![CDATA[<h3>Bảng đặt phím tắt gọn lại</h3>
 <ul>
-<li>Bấm tổ hợp xong không tắt bảng ngay nữa: tổ hợp hiện trong ô, xem lại rồi
-bấm <em>Lưu</em>. Mở bảng lên thì ô hiện sẵn tổ hợp đang dùng</li>
-<li>Bảng dùng đúng bảng màu và hình dạng của panel chính, cả sáng lẫn tối</li>
+<li>Bỏ khoảng trống thừa: nội dung trước đây căn giữa nên dồn thành hai mảng
+trống lớn ở trên và dưới, giờ ghim đều 20pt mỗi bên</li>
+<li>Nút Huỷ có viền: nền của nó gần trùng nền cửa sổ ở chế độ sáng, không viền
+thì nhìn như không có nút nào ở đó</li>
 </ul>
-<p>Cũng bổ sung khai báo còn thiếu cho mục <em>Compress with Pack</em> trong menu
-Services của Finder.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.9.0/Pack-2.9.0.zip" length="1683294" type="application/octet-stream" sparkle:edSignature="bTP/QbIA0iqYPy46biBwG1lWQWg1RaLasBH2RQAejlB6zvYLNiid7o+P5l/Z80/6kbC55bMvb45OrWVbMdmYBw=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.9.1/Pack-2.9.1.zip" length="1683720" type="application/octet-stream" sparkle:edSignature="C+u4e3oscGWr4DllTnnMpSoiABnCQt+P2Ivbj0/8+u1MinujgaWqLCIweJgoIxoY9vw+RLtlJKcQZYPRmzrNDQ=="/>
         </item>
     </channel>
 </rss>
