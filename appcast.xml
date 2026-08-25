@@ -3,21 +3,19 @@
     <channel>
         <title>Pack</title>
         <item>
-            <title>2.9.1</title>
-            <pubDate>Tue, 25 Aug 2026 09:18:57 +0700</pubDate>
+            <title>2.9.2</title>
+            <pubDate>Tue, 25 Aug 2026 09:28:36 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.9.1</sparkle:version>
-            <sparkle:shortVersionString>2.9.1</sparkle:shortVersionString>
+            <sparkle:version>2.9.2</sparkle:version>
+            <sparkle:shortVersionString>2.9.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Bảng đặt phím tắt gọn lại</h3>
-<ul>
-<li>Bỏ khoảng trống thừa: nội dung trước đây căn giữa nên dồn thành hai mảng
-trống lớn ở trên và dưới, giờ ghim đều 20pt mỗi bên</li>
-<li>Nút Huỷ có viền: nền của nó gần trùng nền cửa sổ ở chế độ sáng, không viền
-thì nhìn như không có nút nào ở đó</li>
-</ul>
+            <description><![CDATA[<h3>Bảng đặt phím tắt: hiện đủ hai nút</h3>
+<p>Nút Huỷ và Lưu trước đây không vẽ ra màn hình. Nền của chúng đặt bằng
+<code>layer.backgroundColor</code>, mà NSButton trên macOS hiện tại tự quản layer
+của nó và ghi đè lại — đọc giá trị ra vẫn đúng nhưng lên màn hình thì trắng
+trơn. Giờ nút tự vẽ, có cả trạng thái rê chuột và nhấn.</p>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.9.1/Pack-2.9.1.zip" length="1683720" type="application/octet-stream" sparkle:edSignature="C+u4e3oscGWr4DllTnnMpSoiABnCQt+P2Ivbj0/8+u1MinujgaWqLCIweJgoIxoY9vw+RLtlJKcQZYPRmzrNDQ=="/>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.9.2/Pack-2.9.2.zip" length="1684130" type="application/octet-stream" sparkle:edSignature="mMOdtIdR9ck/MVfgjWxv2h8ZtCivLhDD2iJPphXmtj4rLNfLZKgmKObOcCOYhXTnBtuFFHpYoD9OYPobH/cBCw=="/>
         </item>
     </channel>
 </rss>
