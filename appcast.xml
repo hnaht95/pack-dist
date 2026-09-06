@@ -3,6 +3,30 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.10.0</title>
+            <pubDate>Sun, 06 Sep 2026 14:05:06 +0700</pubDate>
+            <sparkle:version>2.10.0</sparkle:version>
+            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Kéo ảnh tới là panel đã mở sẵn</h3>
+<ul>
+<li>Từ macOS 26, kéo chạm mép trên màn hình là Mission Control bật ra, nên với
+ảnh lên đúng icon thành chuyện hên xui. Giờ ảnh vừa tới gần icon là panel mở
+sẵn, thả thẳng vào panel - kéo từ Finder hay từ stack ở Dock đều được. Kéo đi
+chỗ khác hay thả chỗ khác thì panel tự đóng.</li>
+<li>Panel tự đóng khi con trỏ rời khỏi nó, dù mở bằng chuột, phím tắt hay kéo
+thả. Đang giữ chuột hoặc đang mở hộp thoại chọn ảnh thì nó vẫn nằm yên. Panel mở
+do kéo ảnh không giành lại con trỏ gõ phím từ app bạn đang làm dở.</li>
+<li>Panel nở ra từ dưới icon theo lò xo, khung vào đúng chỗ rồi nội dung mới
+hiện; đóng thì thu ngược lại. Bỏ mũi tên trên đỉnh, panel nằm ngay dưới thanh
+menu.</li>
+<li>Ảnh mới thêm nằm trên đầu danh sách, trong cùng một lượt vẫn giữ thứ tự lúc
+đưa vào nên vẫn nén từ trên xuống.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.0/Pack-2.10.0.zip" length="1717347" type="application/octet-stream" sparkle:edSignature="UIB2ImxUmTnWMhifod6jp2dvEieJMUQDuXa6N8wzgx6LjnQWz3sHYomJ+gude2STK37bzsfOTjVcy6qnE55gDw=="/>
+        </item>
+        <item>
             <title>2.9.3</title>
             <pubDate>Tue, 25 Aug 2026 09:49:02 +0700</pubDate>
             <link>https://github.com/hnaht95/pack-dist</link>
