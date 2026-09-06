@@ -3,6 +3,24 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.10.1</title>
+            <pubDate>Mon, 07 Sep 2026 00:10:16 +0700</pubDate>
+            <sparkle:version>2.10.1</sparkle:version>
+            <sparkle:shortVersionString>2.10.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Icon sáng lên khi panel đang mở</h3>
+<ul>
+<li>Panel đang mở thì icon trên thanh menu mang viên bao sáng - đúng viên macOS
+vẽ quanh icon lúc menu chuột phải đang bung - nên nhìn là biết panel thuộc về
+icon nào. Màu viên đi theo thanh menu, kể cả khi app đang ép giao diện Sáng.</li>
+<li>Danh sách ảnh có thanh cuộn: một thanh mảnh 5 pt nằm ở lề, không rãnh không
+viền nên không làm hẹp dòng nào, hiện lúc cuộn rồi mờ đi, kéo được. Trước đây
+danh sách cuộn được mà chẳng có gì cho thấy điều đó.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.1/Pack-2.10.1.zip" length="1722344" type="application/octet-stream" sparkle:edSignature="oTI2SAOWoTyGh0uh2VZ+hTbhwhJohv0Il7psKdRjeH3bHBh57NqPLoinQBrjcajxzuYmxQi45jsoxvj+ls3pDA=="/>
+        </item>
+        <item>
             <title>2.10.0</title>
             <pubDate>Sun, 06 Sep 2026 14:05:06 +0700</pubDate>
             <sparkle:version>2.10.0</sparkle:version>
