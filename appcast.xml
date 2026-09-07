@@ -3,6 +3,23 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.10.2</title>
+            <pubDate>Mon, 07 Sep 2026 10:57:48 +0700</pubDate>
+            <sparkle:version>2.10.2</sparkle:version>
+            <sparkle:shortVersionString>2.10.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Danh sách ảnh hiện lại</h3>
+<ul>
+<li>Ở bản 2.10.1, kéo ảnh vào thì nút báo đang nén, hàng tóm tắt hiện ra, nhưng
+danh sách ảnh không thấy đâu. Khung bọc danh sách - vừa thêm ở bản trước để treo
+thanh cuộn - tự ẩn bằng một luật CSS mà WebKit không đánh giá lại khi danh sách
+thôi rỗng, nên nó kẹt luôn ở trạng thái ẩn. Kéo một ảnh cũng dính, không riêng
+gì nhiều ảnh. Giờ ẩn hiện theo cùng cái mốc mà hàng tóm tắt vẫn dùng.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.2/Pack-2.10.2.zip" length="1722458" type="application/octet-stream" sparkle:edSignature="3JeT0IIYb5dhM0sYTTzTR7cfMQYU2sSKcBhBgcbT6rtg2QZuuOpc3LAKVkmfYcHKN7bkfZhzFe8A0Mzogb0ADQ=="/>
+        </item>
+        <item>
             <title>2.10.1</title>
             <pubDate>Mon, 07 Sep 2026 00:10:16 +0700</pubDate>
             <sparkle:version>2.10.1</sparkle:version>
@@ -43,26 +60,6 @@ menu.</li>
 </ul>
 ]]></description>
             <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.0/Pack-2.10.0.zip" length="1717347" type="application/octet-stream" sparkle:edSignature="UIB2ImxUmTnWMhifod6jp2dvEieJMUQDuXa6N8wzgx6LjnQWz3sHYomJ+gude2STK37bzsfOTjVcy6qnE55gDw=="/>
-        </item>
-        <item>
-            <title>2.9.3</title>
-            <pubDate>Tue, 25 Aug 2026 09:49:02 +0700</pubDate>
-            <link>https://github.com/hnaht95/pack-dist</link>
-            <sparkle:version>2.9.3</sparkle:version>
-            <sparkle:shortVersionString>2.9.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Dọn menu, và chặn nguồn tải nhầm bản cũ</h3>
-<ul>
-<li>Bỏ mục <em>Xem trên GitHub</em>; <em>Kiểm tra bản mới</em> bỏ ba chấm vì nó
-chạy ngay chứ không hỏi thêm gì</li>
-<li>File cài giờ mang số phiên bản — <code>Pack-2.9.3.dmg</code>. Trước đây mọi
-bản đều tên <code>Pack.dmg</code> nên Downloads đầy Pack.dmg, Pack-1.dmg… và mở
-nhầm bản cũ chưa ký là chuyện sớm muộn</li>
-<li>Đã gỡ file cài khỏi sáu bản đầu (v1.0.0 đến v2.2.1) — chúng ký ad-hoc, chưa
-notarize, tải về là macOS chặn với cảnh báo phần mềm độc hại</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.9.3/Pack-2.9.3.zip" length="1682698" type="application/octet-stream" sparkle:edSignature="ymcLX93UIMnETfjTKQS3LCMh0ZAxplmD4ZvJMsK248QdWr7Is6uTlUQeTKDN31mmAy0OX4stff0BVRfcpoNoBA=="/>
         </item>
     </channel>
 </rss>
