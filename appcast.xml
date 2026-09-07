@@ -3,6 +3,31 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.11.0</title>
+            <pubDate>Mon, 07 Sep 2026 13:26:48 +0700</pubDate>
+            <sparkle:version>2.11.0</sparkle:version>
+            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>PNG giờ mới thật sự nén được</h3>
+<ul>
+<li>Thả PNG vào vẫn nhận lại PNG, nhưng nhỏ đi thật. Thủ phạm cũ là bộ encode
+của canvas: cùng một mớ pixel, nó ghi ra file to hơn oxipng 1,39 lần với ảnh
+chụp và 2,58 lần với ảnh chụp màn hình - đủ to hơn cả file gốc, nên ảnh 2,9 MB
+nén xong ra 3,1 MB. Giờ PNG đi qua oxipng: ảnh đó còn 2,24 MB (-22%), ảnh chụp
+màn hình 381 KB còn 223 KB (-41%), file CleanShot thật 2,61 MB còn 1,78 MB
+(-32%). Không mất một pixel nào - giải mã ra so từng pixel với ảnh vào là trùng
+khít.</li>
+<li>Nén xong to hơn ảnh gốc thì giữ nguyên ảnh gốc, không bao giờ trả về file
+phình ra. Những ảnh như vậy vẫn tải về được - trước đây thả cả loạt PNG vào là
+mọi nút tải xám hết, chẳng lấy ra được gì.</li>
+<li>Thanh chất lượng tự mờ và khoá lại khi nó không tác động gì, kèm chú thích
+lý do: PNG nén không mất dữ liệu nên không có "chất lượng" để giảm - nén cùng
+một ảnh ở mức 60 và mức 90 ra hai file y hệt nhau.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.11.0/Pack-2.11.0.zip" length="1826685" type="application/octet-stream" sparkle:edSignature="loRbPGRS8Ckcgc5woe3FB0Vc9F8wOFwhx7JRyumyQseEWERHYTDUdrf7/FICSkUvP1cMhQVPNFssuGNWCRccCg=="/>
+        </item>
+        <item>
             <title>2.10.3</title>
             <pubDate>Mon, 07 Sep 2026 11:07:30 +0700</pubDate>
             <sparkle:version>2.10.3</sparkle:version>
@@ -36,24 +61,6 @@ gì nhiều ảnh. Giờ ẩn hiện theo cùng cái mốc mà hàng tóm tắt 
 </ul>
 ]]></description>
             <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.2/Pack-2.10.2.zip" length="1722458" type="application/octet-stream" sparkle:edSignature="3JeT0IIYb5dhM0sYTTzTR7cfMQYU2sSKcBhBgcbT6rtg2QZuuOpc3LAKVkmfYcHKN7bkfZhzFe8A0Mzogb0ADQ=="/>
-        </item>
-        <item>
-            <title>2.10.1</title>
-            <pubDate>Mon, 07 Sep 2026 00:10:16 +0700</pubDate>
-            <sparkle:version>2.10.1</sparkle:version>
-            <sparkle:shortVersionString>2.10.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Icon sáng lên khi panel đang mở</h3>
-<ul>
-<li>Panel đang mở thì icon trên thanh menu mang viên bao sáng - đúng viên macOS
-vẽ quanh icon lúc menu chuột phải đang bung - nên nhìn là biết panel thuộc về
-icon nào. Màu viên đi theo thanh menu, kể cả khi app đang ép giao diện Sáng.</li>
-<li>Danh sách ảnh có thanh cuộn: một thanh mảnh 5 pt nằm ở lề, không rãnh không
-viền nên không làm hẹp dòng nào, hiện lúc cuộn rồi mờ đi, kéo được. Trước đây
-danh sách cuộn được mà chẳng có gì cho thấy điều đó.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.1/Pack-2.10.1.zip" length="1722344" type="application/octet-stream" sparkle:edSignature="oTI2SAOWoTyGh0uh2VZ+hTbhwhJohv0Il7psKdRjeH3bHBh57NqPLoinQBrjcajxzuYmxQi45jsoxvj+ls3pDA=="/>
         </item>
     </channel>
 </rss>
