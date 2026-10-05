@@ -3,6 +3,25 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.12.1</title>
+            <pubDate>Mon, 05 Oct 2026 09:39:56 +0700</pubDate>
+            <sparkle:version>2.12.1</sparkle:version>
+            <sparkle:shortVersionString>2.12.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Phím tắt trong menu hiện rõ trở lại</h3>
+<ul>
+<li>Chữ phím tắt cạnh <i>Mở Pack</i> trong menu chuột phải gần như vô hình, ở cả
+giao diện sáng lẫn tối. Các hàng menu nay dùng nhãn của hệ thống nên phím tắt,
+vòng tích và mũi tên menu con cùng màu với menu của chính macOS.</li>
+<li>Hàng menu không còn bị kẹt sáng xanh sau khi rê chuột qua; hàng mở menu con
+vẫn sáng trong lúc menu con đang mở.</li>
+<li>Tên phím tắt hiện đúng với Space, các phím mũi tên, F1-F20 và Return - trước
+đây ra ô trống hay ký tự lạ - và với Shift: ⇧⌘2 không còn thành ⇧⌘@.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.12.1/Pack-2.12.1.zip" length="2136259" type="application/octet-stream" sparkle:edSignature="gvFKoFsAqWbzqO4uoLI200Wa2vXp9/ahywTa1FZda9YKBcoNphZLaoOeqXPa1Qje6xBDSsdFxLIL+t/s67AGCA=="/>
+        </item>
+        <item>
             <title>2.12.0</title>
             <pubDate>Mon, 05 Oct 2026 09:20:44 +0700</pubDate>
             <sparkle:version>2.12.0</sparkle:version>
@@ -56,24 +75,6 @@ một ảnh ở mức 60 và mức 90 ra hai file y hệt nhau.</li>
 </ul>
 ]]></description>
             <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.11.0/Pack-2.11.0.zip" length="1826685" type="application/octet-stream" sparkle:edSignature="loRbPGRS8Ckcgc5woe3FB0Vc9F8wOFwhx7JRyumyQseEWERHYTDUdrf7/FICSkUvP1cMhQVPNFssuGNWCRccCg=="/>
-        </item>
-        <item>
-            <title>2.10.3</title>
-            <pubDate>Mon, 07 Sep 2026 11:07:30 +0700</pubDate>
-            <sparkle:version>2.10.3</sparkle:version>
-            <sparkle:shortVersionString>2.10.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Khung panel bám kịp nội dung</h3>
-<ul>
-<li>Lần đầu mở app, khung trắng không bọc hết phần "Kéo ảnh vào đây" - nội dung
-nằm tràn ra ngoài khung chừng một giây rồi mới khớp lại; mở thêm vài lần thì
-bình thường. Khung chạy theo lò xo, mà lần mở đầu tiên cửa sổ lại giãn ra ngay
-giữa chừng lúc trang báo chiều cao thật, nên lò xo cứ đi tiếp về đích cũ rồi
-lắng ở đó. Giờ nó bắt lại theo chiều cao mới, khung đuổi kịp nội dung sau
-200 ms.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.3/Pack-2.10.3.zip" length="1724271" type="application/octet-stream" sparkle:edSignature="cRJOGpn7xJsSu0ANFiYaKJKpJlly5pm414aDZ4eDwaea9yUJmT+litH6n17Cxg6KfZ2GLXg0yBK1bYp/1JsyDA=="/>
         </item>
     </channel>
 </rss>
