@@ -3,6 +3,36 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.12.0</title>
+            <pubDate>Mon, 05 Oct 2026 09:20:44 +0700</pubDate>
+            <sparkle:version>2.12.0</sparkle:version>
+            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Nén được cả PDF, và panel đóng rồi vẫn nén tiếp</h3>
+<ul>
+<li><b>Nén PDF.</b> Thả PDF vào như thả ảnh. Pack nén lại những ảnh nằm bên trong,
+còn chữ, nét vẽ, link, mục lục và form giữ nguyên. Một tài liệu 13 trang đầy ảnh
+sản phẩm từ 228 MB còn 8,6 MB; bản scan 3 trang từ 5,5 MB còn 2,4 MB. PDF chủ yếu
+là chữ thì chỉ nhỏ đi vài phần trăm. PDF có mật khẩu được trả về nguyên vẹn.
+Thanh Kích thước thu nhỏ luôn ảnh bên trong PDF - với bản scan đây là nấc lợi
+nhất.</li>
+<li><b>Panel đóng rồi vẫn nén đủ tốc độ.</b> Trước đây thả file xong rê chuột đi
+là việc nén hoặc không bắt đầu, hoặc chậm đi bốn lần, tới khi mở panel lại. Giờ
+nó chạy như lúc panel mở.</li>
+<li><b>Nén xong thì panel tự bật lên</b> trong 5 giây cho thấy kết quả, không
+giành bàn phím của app bạn đang dùng. Rê chuột vào thì nó ở lại để bạn bấm tải.</li>
+<li><b>Có thanh tiến trình cho PDF</b>, kể cả khi chỉ có một file, chạy theo tiến
+độ thật.</li>
+<li><b>Mở panel mượt hơn:</b> chữ lộ ra theo khung đang nở, đọc được sau chừng
+70 ms thay vì 300 ms. Khung cũng không còn tụt xuống hay khựng lại khi thả file
+lên icon lúc panel đang mở.</li>
+<li><b>Mở khi đăng nhập:</b> chuột phải icon trên thanh menu, chọn
+<i>Mở khi đăng nhập</i>.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.12.0/Pack-2.12.0.zip" length="2126658" type="application/octet-stream" sparkle:edSignature="UAZ1Ukz+K70Ts07xg3dSX9hys37ro5edGbKDHuRbDjVWwpcXDyKc26BCXczgWuUEySvVGfrVh3mVxMxMy/Q2DA=="/>
+        </item>
+        <item>
             <title>2.11.0</title>
             <pubDate>Mon, 07 Sep 2026 13:26:48 +0700</pubDate>
             <sparkle:version>2.11.0</sparkle:version>
@@ -44,23 +74,6 @@ lắng ở đó. Giờ nó bắt lại theo chiều cao mới, khung đuổi k�
 </ul>
 ]]></description>
             <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.3/Pack-2.10.3.zip" length="1724271" type="application/octet-stream" sparkle:edSignature="cRJOGpn7xJsSu0ANFiYaKJKpJlly5pm414aDZ4eDwaea9yUJmT+litH6n17Cxg6KfZ2GLXg0yBK1bYp/1JsyDA=="/>
-        </item>
-        <item>
-            <title>2.10.2</title>
-            <pubDate>Mon, 07 Sep 2026 10:57:48 +0700</pubDate>
-            <sparkle:version>2.10.2</sparkle:version>
-            <sparkle:shortVersionString>2.10.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Danh sách ảnh hiện lại</h3>
-<ul>
-<li>Ở bản 2.10.1, kéo ảnh vào thì nút báo đang nén, hàng tóm tắt hiện ra, nhưng
-danh sách ảnh không thấy đâu. Khung bọc danh sách - vừa thêm ở bản trước để treo
-thanh cuộn - tự ẩn bằng một luật CSS mà WebKit không đánh giá lại khi danh sách
-thôi rỗng, nên nó kẹt luôn ở trạng thái ẩn. Kéo một ảnh cũng dính, không riêng
-gì nhiều ảnh. Giờ ẩn hiện theo cùng cái mốc mà hàng tóm tắt vẫn dùng.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.10.2/Pack-2.10.2.zip" length="1722458" type="application/octet-stream" sparkle:edSignature="3JeT0IIYb5dhM0sYTTzTR7cfMQYU2sSKcBhBgcbT6rtg2QZuuOpc3LAKVkmfYcHKN7bkfZhzFe8A0Mzogb0ADQ=="/>
         </item>
     </channel>
 </rss>
