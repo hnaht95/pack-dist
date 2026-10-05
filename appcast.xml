@@ -3,6 +3,27 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.13.0</title>
+            <pubDate>Mon, 05 Oct 2026 21:11:41 +0700</pubDate>
+            <sparkle:version>2.13.0</sparkle:version>
+            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Panel ở lại khi đã có file, và biết file nào đã tải</h3>
+<ul>
+<li><b>Đã có file thì panel không tự đóng nữa.</b> Thả file vào - lên icon, vào
+panel, qua hộp chọn file, Mở bằng hay Services - rồi rê chuột đi làm việc khác,
+panel vẫn ở đó. Bấm ra ngoài một lần, bấm icon hay nhấn Esc thì mới đóng. Panel
+còn trống thì vẫn như cũ: rời chuột là đóng.</li>
+<li><b>File đã tải hiện icon thư mục</b> thay cho nút tải. Bấm vào là Finder mở và
+chọn đúng file đó. File đã bị dời hay xoá thì thẻ quay về nút tải để tải lại.</li>
+<li><b>Tải thư mục giờ gồm cả ảnh "đã tối ưu"</b> - ảnh nén không nhỏ hơn được
+nên giữ nguyên bản gốc. Trước đây chúng bị bỏ ra, và một loạt toàn ảnh như vậy thì
+báo không có gì để tải.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.13.0/Pack-2.13.0.zip" length="2145602" type="application/octet-stream" sparkle:edSignature="QzE+fkDaVtcbpStD0Pr86VHBFXJqsvaDPSezCNTu67vQ3Bg6i2cod0ynfMR6tiyvru0QiTjnee8TyyvqChv9BA=="/>
+        </item>
+        <item>
             <title>2.12.1</title>
             <pubDate>Mon, 05 Oct 2026 09:39:56 +0700</pubDate>
             <sparkle:version>2.12.1</sparkle:version>
@@ -50,31 +71,6 @@ lên icon lúc panel đang mở.</li>
 </ul>
 ]]></description>
             <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.12.0/Pack-2.12.0.zip" length="2126658" type="application/octet-stream" sparkle:edSignature="UAZ1Ukz+K70Ts07xg3dSX9hys37ro5edGbKDHuRbDjVWwpcXDyKc26BCXczgWuUEySvVGfrVh3mVxMxMy/Q2DA=="/>
-        </item>
-        <item>
-            <title>2.11.0</title>
-            <pubDate>Mon, 07 Sep 2026 13:26:48 +0700</pubDate>
-            <sparkle:version>2.11.0</sparkle:version>
-            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>PNG giờ mới thật sự nén được</h3>
-<ul>
-<li>Thả PNG vào vẫn nhận lại PNG, nhưng nhỏ đi thật. Thủ phạm cũ là bộ encode
-của canvas: cùng một mớ pixel, nó ghi ra file to hơn oxipng 1,39 lần với ảnh
-chụp và 2,58 lần với ảnh chụp màn hình - đủ to hơn cả file gốc, nên ảnh 2,9 MB
-nén xong ra 3,1 MB. Giờ PNG đi qua oxipng: ảnh đó còn 2,24 MB (-22%), ảnh chụp
-màn hình 381 KB còn 223 KB (-41%), file CleanShot thật 2,61 MB còn 1,78 MB
-(-32%). Không mất một pixel nào - giải mã ra so từng pixel với ảnh vào là trùng
-khít.</li>
-<li>Nén xong to hơn ảnh gốc thì giữ nguyên ảnh gốc, không bao giờ trả về file
-phình ra. Những ảnh như vậy vẫn tải về được - trước đây thả cả loạt PNG vào là
-mọi nút tải xám hết, chẳng lấy ra được gì.</li>
-<li>Thanh chất lượng tự mờ và khoá lại khi nó không tác động gì, kèm chú thích
-lý do: PNG nén không mất dữ liệu nên không có "chất lượng" để giảm - nén cùng
-một ảnh ở mức 60 và mức 90 ra hai file y hệt nhau.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.11.0/Pack-2.11.0.zip" length="1826685" type="application/octet-stream" sparkle:edSignature="loRbPGRS8Ckcgc5woe3FB0Vc9F8wOFwhx7JRyumyQseEWERHYTDUdrf7/FICSkUvP1cMhQVPNFssuGNWCRccCg=="/>
         </item>
     </channel>
 </rss>
