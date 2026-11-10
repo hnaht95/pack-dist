@@ -3,6 +3,31 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.15.0</title>
+            <pubDate>Tue, 10 Nov 2026 16:55:35 +0700</pubDate>
+            <sparkle:version>2.15.0</sparkle:version>
+            <sparkle:shortVersionString>2.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Giữ EXIF, PDF nhỏ hơn, panel kính mờ</h3>
+<ul>
+<li><b>Nén ảnh giữ lại EXIF:</b> máy ảnh, ống kính, thông số chụp, ngày giờ và
+vị trí GPS - đọc được cả từ ảnh HEIC của iPhone. Ảnh vẫn hiện đúng chiều, kích
+thước ghi trong EXIF khớp ảnh mới. <i>Xoá metadata</i> trong menu chuột phải giờ
+chỉ xoá XMP, IPTC và Content Credentials; muốn xoá cả EXIF thì dùng
+<i>Loại nhãn AI</i>.</li>
+<li><b>PDF nhỏ hơn hẳn mà không mất chất lượng:</b> ảnh hay dữ liệu lặp lại chỉ
+lưu một lần, lớp trong suốt và ảnh phẳng được nén lại không mất dữ liệu. Có file
+từ 42 MB còn 28 MB, từng trang giống hệt bản gốc.</li>
+<li><b>Panel kính mờ:</b> nhìn xuyên thấy nền phía sau, màu nền tự đậm lên để
+chữ luôn dễ đọc. Màu bên trong chỉnh lại cho hợp, bỏ viền và bóng thừa.</li>
+<li><b>Mở và đóng panel bằng hiệu ứng mờ dần</b> nhẹ nhàng.</li>
+<li><b>Kéo file tới:</b> cửa sổ ba lựa chọn luôn một kích thước, không còn lúc to
+lúc nhỏ.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.15.0/Pack-2.15.0.zip" length="2156684" type="application/octet-stream" sparkle:edSignature="fbCexAnesl9SMVRDZY6iaX5GbCkeExpcawTZSnMpMMvh475vca/Cl17pgegr67SA/Wm5AhBwMVcMbuJOWOQzDw=="/>
+        </item>
+        <item>
             <title>2.14.0</title>
             <pubDate>Thu, 15 Oct 2026 09:30:15 +0700</pubDate>
             <sparkle:version>2.14.0</sparkle:version>
