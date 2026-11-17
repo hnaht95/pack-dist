@@ -3,6 +3,21 @@
     <channel>
         <title>Pack</title>
         <item>
+            <title>2.15.1</title>
+            <pubDate>Tue, 17 Nov 2026 14:05:34 +0700</pubDate>
+            <sparkle:version>2.15.1</sparkle:version>
+            <sparkle:shortVersionString>2.15.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Sửa giao diện</h3>
+<ul>
+<li><b>Mục đang chọn tô đen trở lại</b> ở giao diện sáng, cùng màu nút chính.</li>
+<li><b>Các lựa chọn chia đều bề ngang:</b> viên "Gốc" không còn dính sát mép phải.</li>
+<li><b>Bỏ đường kẻ thừa</b> dưới file cuối trong danh sách.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/hnaht95/pack-dist/releases/download/v2.15.1/Pack-2.15.1.zip" sparkle:edSignature="6MyJ0FtVciHPZYIZgvI2vtysedwHgwI4PU2XfU1vmvYceG8SycRPejO8dyeoPfPxzwvaUwxSEWMFsbUrD9TSBg==" length="2156394" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>2.15.0</title>
             <pubDate>Tue, 10 Nov 2026 16:55:35 +0700</pubDate>
             <sparkle:version>2.15.0</sparkle:version>
